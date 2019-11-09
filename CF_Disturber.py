@@ -33,11 +33,13 @@ def setup ( username, password ):
 
 
 def start ( ):
-
-	Username = "indrajit1"
-	Password = "aliveisawesome"
+	#Give Your username
+	Username = ""
+	#Give password
+	Password = ""
 	driver = setup (Username, Password)
-	want_to_disturb="its_aks_ulure"
+	#Here give the username of person you want to disturb
+	want_to_disturb=""
 	time_interval=60 #in seconds
 	url = "https://codeforces.com/usertalk?other="+want_to_disturb
 	message="Hello"
